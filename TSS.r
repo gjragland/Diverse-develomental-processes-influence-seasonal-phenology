@@ -1,6 +1,6 @@
 #R
 #GJR 5/23/2019
-#
+# test for overrepresentation of SNPs near TSS of differentially expressed transcripts
 
 library(GenomicFeatures)
 
