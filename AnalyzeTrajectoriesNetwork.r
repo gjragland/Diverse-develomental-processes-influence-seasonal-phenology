@@ -1,3 +1,5 @@
+#R GJR ~summer 2019
+#Test for overrepresentation of high connectivity transcripts in a given set (e.g., transcripts differentially expressed in an analysis)
 
 #load up differential expression data
 setwd('/media/raglandlab/ExtraDrive1/RpomDiapauseRNAseqTraj_GJR/pomResultsOutliersRemoved')
