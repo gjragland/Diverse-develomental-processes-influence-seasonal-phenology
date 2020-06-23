@@ -25,7 +25,7 @@ Ecl_all <- merge(FenEcl, Ecl_avg, sort=F)
 
 library(RMySQL)
 
-mydb = dbConnect(MySQL(), user='raglandlab', password='pomonella', dbname='PomUrbanaGrant')
+mydb = dbConnect(MySQL(), user='raglandlab', password='xx', dbname='PomUrbanaGrant')
 
 for (i in 1:nrow(Ecl_all)){
   dat<-dbGetQuery(mydb, paste("select * from main where scaffold = '",Ecl_all$Zeph_scaf[i],"' and position = '",Ecl_all$Zeph_pos[i],"'",sep=""))
